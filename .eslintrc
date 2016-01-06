@@ -1,0 +1,26 @@
+{
+  "root": true,
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "rules": {
+    "comma-dangle": [
+      2,
+      "never"
+    ],
+    "quotes": [
+      2,
+      "single"
+    ],
+    "linebreak-style": [
+      2,
+      "unix"
+    ],
+    "semi": [
+      2,
+      "always"
+    ]
+  },
+  "env": {
+    "node": true
+  }
+}
